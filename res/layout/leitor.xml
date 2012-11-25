@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_app"
+    android:orientation="vertical" >
+
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.05" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="314dp"
+            android:layout_height="wrap_content"
+            android:layout_x="3dp"
+            android:layout_y="2dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/logo" />
+
+        <ImageButton
+            android:id="@+id/btLeitor"
+            android:layout_width="206dp"
+            android:layout_height="wrap_content"
+            android:layout_x="66dp"
+            android:layout_y="361dp"
+            android:src="@drawable/bot_barra" 
+            android:onClick="onClick"/>
+
+        <EditText
+            android:id="@+id/listaBarras"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:layout_x="10dp"
+            android:layout_y="108dp"
+            android:ems="10" />
+
+        <TextView
+            android:id="@+id/codBarras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="13dp"
+            android:layout_y="87dp"
+            android:text="Código de Barras:"
+            android:textColor="@android:color/black" />
+
+    </AbsoluteLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_inicial" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="111dp"
+        android:text="Usuário:" 
+        android:textColor="@android:color/black"/>
+
+    <EditText
+        android:id="@+id/txUsuario"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="130dp"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="176dp"
+        android:text="Senha:"
+        android:textColor="@android:color/black" />
+
+    <EditText
+        android:id="@+id/txSenha"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="195dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btEnt"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_x="32dp"
+        android:layout_y="248dp"
+        android:text="Entrar" />
+
+    <Button
+        android:id="@+id/btCad"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="248dp"
+        android:text="Cadastre-se" />
+
+</AbsoluteLayout>

@@ -1,25 +1,51 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.print_health_mobile"
+    package="com.example.modelotcc"
     android:versionCode="1"
-    android:versionName="1.0" >
-
+    android:versionName="1.0" 
+    >
+    
+<uses-permission android:name="android.permission.CAMERA"/>
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="15" />
 
     <application
         android:icon="@drawable/ic_launcher"
-        android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-        <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        android:label="@string/app_name">
+        
+    <activity
+        android:name=".Login"
+        android:label="@string/title_activity_main" >
+    
+    	<intent-filter>
+    
+    	<action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+    	<category android:name="android.intent.category.LAUNCHER" />
+    	
+    	</intent-filter>
+    </activity>
+    <activity  android:name=".Doencas"></activity>
+    <activity android:name=".Cadastro"></activity>
+    
+    <activity android:name=".Leitor"></activity>
+    	<intent-filter>
+    
+    	<action android:name="android.intent.action.MAIN" />
+
+    	<category android:name="android.intent.category.LAUNCHER" />
+    	
+    	</intent-filter>
+    
+    
+    <activity android:name=".Bd"></activity>
+        
+        
+        
+    <activity android:name=".ItensLista"></activity>
+        
+    
+    
     </application>
 
 </manifest>

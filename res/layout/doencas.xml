@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tela_app" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="0dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="62dp"
+        android:layout_y="70dp"
+        android:text="Alguma doença pré-diagnosticada?" />
+
+    
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="96dp" />
+
+    <Button
+        android:id="@+id/btProx"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_x="163dp"
+        android:layout_y="357dp"
+        android:text="Próximo >" />
+
+</AbsoluteLayout>
